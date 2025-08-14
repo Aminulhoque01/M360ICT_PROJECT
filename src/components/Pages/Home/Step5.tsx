@@ -1,4 +1,4 @@
- 'use client';
+'use client';
 
 import { FormField, FormItem, FormLabel, FormControl, FormMessage } from '@/components/ui/form';
 import { Checkbox } from '@/components/ui/checkbox';
@@ -17,7 +17,7 @@ export default function Step5({ form }: Props) {
   const manager = mockManagers.find((m) => m.id === formData.manager);
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 mt-2 ">
       <div>
         <h3 className="text-lg font-medium">Personal Info</h3>
         <p>Full Name: {formData.fullName}</p>
