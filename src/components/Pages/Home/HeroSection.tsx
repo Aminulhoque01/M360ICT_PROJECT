@@ -1,4 +1,5 @@
 import React from "react";
+import MultiStepForm from "../MultiStepForm/MultiStepForm";
 
 const HeroSection = () => {
   return (
@@ -6,7 +7,7 @@ const HeroSection = () => {
       {/* Background Image */}
       
       
-        <h1 className="text-red-500">helo next</h1>
+       <MultiStepForm/>
       {/* Content */}
        
     </section>
